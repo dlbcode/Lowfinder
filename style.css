@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  color: #4c77af;
+  color: #4b9bf6;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -22,7 +22,7 @@ h2 {
 }
 
 a {
-  color: #4caf50;
+  color: #4b9bf6;
   text-decoration: none;
 }
 
@@ -54,12 +54,6 @@ p {
   padding: 10px;
   background: #282828;
   border-radius: 5px;
-}
-
-.key-icon {
-  color: #4c86af;
-  font-weight: bold;
-  margin-right: 10px;
 }
 
 .app-container {
