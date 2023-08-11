@@ -7,23 +7,22 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f9f9f9;
+            background-color: #f0f0f0;
             margin: 0 auto;
             max-width: 800px;
             padding: 20px;
-            color: #333;
+            color: #f9f9f9;
         }
         h1 {
             color: #1e88e5;
             text-align: center;
-            border-bottom: 2px solid #1e88e5;
             padding-bottom: 10px;
         }
         h2 {
             color: #333;
-            background: #f0f0f0;
+            background: #2a2a2a;
             padding: 10px;
-            border-left: 5px solid #1e88e5;
+            border-radius: 5px;
             margin: 20px 0;
         }
         a {
@@ -51,7 +50,7 @@
         }
         p {
             padding: 10px;
-            background: #f9f9f9;
+            background: #2a2a2a;
             border-radius: 5px;
         }
         .key-icon {
@@ -60,37 +59,63 @@
             margin-right: 10px;
         }
         .app-container {
-            background: #ffffff;
+            background: #333;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .card {
+            background: #444;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
-    <h1>How to Find the Best Flight Deals: Checklist</h1>
-    <h2><label><input type="checkbox"> Explore Your Options</label></h2>
-    <p>Not sure where to go? Use the <a href="https://www.google.com/flights">"Explore" option in Google Flights</a> to find destinations that match your interests and budget. Filter by regions, interests, or flight duration to discover exciting places.</p>
-    <h2><label><input type="checkbox"> Find the Lowest Prices</label></h2>
-    <p>Search for the lowest priced round-trip (RT) and one-way ticket prices for the next six months. This gives you a baseline price.</p>
-    <h2><label><input type="checkbox"> Consider Alternative Routes</label></h2>
-    <p>Find the lowest priced flight to your destination, then find a different returning flight path. This can save money and eliminate backtracking.</p>
-    <h2><label><input type="checkbox"> Look at Nearby Destinations</label></h2>
-    <p>Search for destinations near or on the way to your desired location. Two one-way flights or flights to a nearby destination might be cheaper.</p>
-    <h2><label><input type="checkbox"> Try Different Origin Airports</label></h2>
-    <p>Check flights from various airports, including small regional ones. The additional travel time might be worth the savings.</p>
-    <h2><label><input type="checkbox"> Organize Your Findings</label></h2>
-    <p>Create a spreadsheet using <a href="https://sheets.google.com">Google Sheets</a> or Excel to compare options. Include date, from, to, price, and ticket type.</p>
-    <h2><label><input type="checkbox"> Set Up Alerts</label></h2>
-    <p>Add flights to a watch or alert list to stay updated on price changes.</p>
-    <h2>Keys to Success:</h2>
-    <ul>
-        <li>• Be Flexible: With dates, times, and destinations.</li>
-        <li>• Embrace Red-Eye Flights: Save time and money by traveling overnight.</li>
-        <li>• Think Creatively: The cheapest flight path may take you to unexpected places.</li>
-        <li>• Use Incognito Mode: Search in private or incognito mode to prevent price changes.</li>
-        <li>• Check Small or Local Airlines: Look for local flight operators and search their websites directly.</li>
-        <li>• Understand Airline Pricing: Timing matters. Finding the right moment to buy can lead to significant savings.</li>
-    </ul>
+    <div class="app-container">
+        <h1>How to Find the Best Flight Deals: Checklist</h1>
+        <div class="card">
+            <h2><label><input type="checkbox"> Explore Your Options</label></h2>
+            <p>Not sure where to go? Use the <a href="https://www.google.com/flights">"Explore" option in Google Flights</a> to find destinations that match your interests and budget. Filter by regions, interests, or flight duration to discover exciting places.</p>
+        </div>
+        <div class="card">
+            <h2><label><input type="checkbox"> Find the Lowest Prices</label></h2>
+            <p>Search for the lowest priced round-trip (RT) and one-way ticket prices for the next six months. This gives you a baseline price.</p>
+        </div>
+        <div class="card">
+            <h2><label><input type="checkbox"> Consider Alternative Routes</label></h2>
+            <p>Find the lowest priced flight to your destination, then find a different returning flight path. This can save money and eliminate backtracking.</p>
+        </div>
+        <div class="card">
+            <h2><label><input type="checkbox"> Look at Nearby Destinations</label></h2>
+            <p>Search for destinations near or on the way to your desired location. Two one-way flights or flights to a nearby destination might be cheaper.</p>
+        </div>
+        <div class="card">
+            <h2><label><input type="checkbox"> Try Different Origin Airports</label></h2>
+            <p>Check flights from various airports, including small regional ones. The additional travel time might be worth the savings.</p>
+        </div>
+        <div class="card">
+            <h2><label><input type="checkbox"> Organize Your Findings</label></h2>
+            <p>Create a spreadsheet using <a href="https://sheets.google.com">Google Sheets</a> or Excel to compare options. Include date, from, to, price, and ticket type.</p>
+        </div>
+        <div class="card">
+            <h2><label><input type="checkbox"> Set Up Alerts</label></h2>
+            <p>Add flights to a watch or alert list to stay updated on price changes.</p>
+        </div>
+        <div class="card">
+            <h2>Keys to Success:</h2>
+            <ul>
+                <li><span class="key-icon">•</span> Be Flexible: With dates, times, and destinations.</li>
+                <li><span class="key-icon">•</span> Embrace Red-Eye Flights: Save time and money by traveling overnight.</li>
+                <li><span class="key-icon">•</span> Think Creatively: The cheapest flight path may take you to unexpected places.</li>
+                <li><span class="key-icon">•</span> Use Incognito Mode: Search in private or incognito mode to prevent price changes.</li>
+                <li><span class="key-icon">•</span> Check Small or Local Airlines: Look for local flight operators and search their websites directly.</li>
+                <li><span class="key-icon">•</span> Understand Airline Pricing: Timing matters. Finding the right moment to buy can lead to significant savings.</li>
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>
